@@ -1,0 +1,168 @@
+body {
+    background-color: #55657a;
+    box-sizing: border-box;
+}
+
+#header {
+    position: relative;
+    height: 40px;
+    margin: 30px 0px 0px 0px;
+    padding: 10px 0px 10px 10px;
+    display: flex;
+    background-color: #159d7d;
+    text-align: start;
+    font-size: xx-large;
+    color: white;
+}
+
+#header span:hover {
+    font-weight:600;
+    cursor: pointer;
+}
+
+#collegeLogo img{
+    position: absolute;
+    display: flex;
+    right: 10px;
+    height: 70%;
+}
+
+#collegeLogo:hover {
+    cursor: pointer;
+}
+
+#aboutMe {
+    position: relative;
+    height: 30px;
+    width: auto;
+    margin: 0px 30px 0px 30px;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    text-align: start;
+    font-size: large;
+    color: yellowgreen;
+}
+
+#aboutMeContainer, #interestsContainer {
+    height: fit-content;
+    width: auto;
+    display: block;
+    margin: 10px 30px 0px 30px;
+}
+
+#introduction {
+    height: fit-content;
+    width: 81%;
+    margin: 0px 3.8rem 0px 0px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    background-color: white;
+    color: #777;
+    border-radius: 8px;
+}
+
+#aboutMeImg {
+    padding: 0px 0px 0px 3.8rem;
+    display: inline-block;
+    border-left: 1.5px solid white;
+}
+
+#aboutMeImg img {
+    height: 90px;
+    width: 75px;
+    padding: 0px 0rem 0px 0rem;
+    object-fit: contain;
+}
+
+#aboutMeImg img:hover {
+    cursor: pointer;
+    filter: brightness(50%);
+}
+
+#interests, #webResources {
+    position: relative;
+    height: 30px;
+    width: auto;
+    margin: 30px 30px 0px 30px;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    text-align: start;
+    font-size: large;
+    color: yellowgreen;
+}
+
+.card {
+    height: 20rem;
+    width: 15rem;
+    margin-right: 1.35rem;
+    margin-bottom: 2rem;
+    padding: 0rem 1rem;
+    /*justify-content: space-evenly;*/
+    position: relative;
+    display: inline-block;
+    color: white;
+    background-color: #55657a;
+    /*box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;*/
+    box-shadow: 0 1.5rem 4rem rgb(255 255 255 / 25%);
+    border-radius: 8px;
+}
+
+.card:hover {
+    cursor: pointer;
+    filter: brightness(50%);
+    /*color: #159d7d;*/
+}
+
+.card h3 {
+    color: darkblue;
+}
+
+.card:hover h3{
+    color:cornflowerblue;
+}
+
+#webResources {
+    height: fit-content;
+}
+
+#webResources a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer {
+    position: relative;
+    height: 100px;
+    width: auto;
+    margin: 30px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    background-color: #159d7d;
+    text-align: center;
+    font-size: medium;
+    color: white;
+}
+
+.contact, .copyright {
+    display: block;
+    height: fit-content;
+}
+
+.copyright .span1 {
+    color: black;
+}
+
+.copyright span {
+    color: darkblue;
+}
+
+#footer img {
+    height: 25px;
+    width: 25px;
+    margin: 10px 0rem 0px 0rem;
+    border-radius: 50%;
+}
+
+#footer img:hover {
+    cursor: pointer;
+    filter: brightness(50%);
+}
