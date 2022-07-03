@@ -16,7 +16,7 @@ body {
 }
 
 #header span:hover {
-    font-weight:600;
+    color: #7409d7;
     cursor: pointer;
 }
 
@@ -94,7 +94,7 @@ body {
 .card {
     height: 20rem;
     width: 15rem;
-    margin-right: 1.35rem;
+    margin-right: 1.75rem;
     margin-bottom: 2rem;
     padding: 0rem 1rem;
     /*justify-content: space-evenly;*/
@@ -105,6 +105,10 @@ body {
     /*box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;*/
     box-shadow: 0 1.5rem 4rem rgb(255 255 255 / 25%);
     border-radius: 8px;
+}
+
+.card:nth-child(4n+0) {
+    margin-right: 0rem;
 }
 
 .card:hover {
